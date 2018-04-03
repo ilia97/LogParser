@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogParser", "LogParser\LogParser.csproj", "{658BA8DB-1CE9-4DB0-9ECE-02A22FBF440B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogParser.Core", "LogParser.Core\LogParser.Core.csproj", "{BF355BA3-1587-43E4-B106-8BC7E9583F99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogParser.DataAccess", "LogParser.DataAccess\LogParser.DataAccess.csproj", "{93562603-9F2C-45E8-AD14-702454D996B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogParser.LocationDefiner", "LogParser.LocationDefiner\LogParser.LocationDefiner.csproj", "{2A1D9FDD-F3CB-460B-8EB1-98A3DDEBA108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogParser.API", "LogParser.API\LogParser.API.csproj", "{B27DC7CB-37A4-4C5C-8BD7-6FA4F832067B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogParser.Autofac", "LogParser.Autofac\LogParser.Autofac.csproj", "{B93FD93D-439F-4A48-A64C-9A4CCF837D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogParser.AutoMapper", "LogParser.AutoMapper\LogParser.AutoMapper.csproj", "{1344C5C7-6F9D-49C5-8A11-866633F26469}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{658BA8DB-1CE9-4DB0-9ECE-02A22FBF440B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658BA8DB-1CE9-4DB0-9ECE-02A22FBF440B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658BA8DB-1CE9-4DB0-9ECE-02A22FBF440B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658BA8DB-1CE9-4DB0-9ECE-02A22FBF440B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF355BA3-1587-43E4-B106-8BC7E9583F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF355BA3-1587-43E4-B106-8BC7E9583F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF355BA3-1587-43E4-B106-8BC7E9583F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF355BA3-1587-43E4-B106-8BC7E9583F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93562603-9F2C-45E8-AD14-702454D996B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93562603-9F2C-45E8-AD14-702454D996B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93562603-9F2C-45E8-AD14-702454D996B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93562603-9F2C-45E8-AD14-702454D996B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1D9FDD-F3CB-460B-8EB1-98A3DDEBA108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1D9FDD-F3CB-460B-8EB1-98A3DDEBA108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1D9FDD-F3CB-460B-8EB1-98A3DDEBA108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1D9FDD-F3CB-460B-8EB1-98A3DDEBA108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27DC7CB-37A4-4C5C-8BD7-6FA4F832067B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27DC7CB-37A4-4C5C-8BD7-6FA4F832067B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27DC7CB-37A4-4C5C-8BD7-6FA4F832067B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27DC7CB-37A4-4C5C-8BD7-6FA4F832067B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93FD93D-439F-4A48-A64C-9A4CCF837D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93FD93D-439F-4A48-A64C-9A4CCF837D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93FD93D-439F-4A48-A64C-9A4CCF837D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93FD93D-439F-4A48-A64C-9A4CCF837D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1344C5C7-6F9D-49C5-8A11-866633F26469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1344C5C7-6F9D-49C5-8A11-866633F26469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1344C5C7-6F9D-49C5-8A11-866633F26469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1344C5C7-6F9D-49C5-8A11-866633F26469}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F57971F3-B2F2-43BD-B668-E24FB34566EE}
+	EndGlobalSection
+EndGlobal
